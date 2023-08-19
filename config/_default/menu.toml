@@ -10,15 +10,23 @@
 [[social]]
 identifier = "github"
 name = "GitHub"
-url = "https://github.com/CaiJimmy/hugo-theme-stack"
+url = "https://github.com/Birkengym"
 
 [social.params]
 icon = "brand-github"
 
 [[social]]
-identifier = "twitter"
-name = "Twitter"
-url = "https://twitter.com"
+identifier = "instagram"
+name = "Instagram"
+url = "https://www.instagram.com/birkengym/"
 
 [social.params]
-icon = "brand-twitter"
+icon = "brand-instagram"
+
+[[social]]
+identifier = "youtube"
+name = "Youtube"
+url = "https://www.youtube.com/@birkengy"
+
+[social.params]
+icon = "brand-youtube"
