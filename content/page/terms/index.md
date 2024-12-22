@@ -1,15 +1,15 @@
 ---
 
-title: "Privacy Policy"
+title: "Terms of service"
 date: 2022-03-06
-slug: "privacy"
-description: "Our privacy Policy"
+slug: "terms"
+description: "Our terms of service"
 menu:
     main:
     
         weight: 2
         params: 
-            icon: book
+            icon: terminal-2
 
 ---
 
