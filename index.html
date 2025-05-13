@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ascend</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;400;600;800&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+
+        .gradient-text {
+            font-size: 4rem;
+            font-weight: bold;
+            background: linear-gradient(90deg, black, white, black);
+            background-size: 300% auto;
+            color: transparent;
+            background-clip: text;
+            -webkit-background-clip: text;
+            animation: moveGradient 100s linear infinite;
+        }
+
+        @keyframes moveGradient {
+            0% { background-position: -100% 50%; }
+            50% { background-position: 0% 50%; }
+            100% { background-position: 200% 50%; }
+        }
+
+        .outlined-button {
+            border: 2px solid white;
+            color: white;
+            padding: 12px 24px;
+            border-radius: 9999px;
+            font-size: 18px;
+            transition: background-color 0.3s ease;
+        }
+
+        .outlined-button:hover {
+            background-color: rgba(255, 255, 255, 0.1);
+        }
+
+        .tagline {
+            font-weight: 100;
+            letter-spacing: 0.1em;
+        }
+
+    </style>
+</head>
+<body class="bg-black text-white flex justify-center items-center min-h-screen">
+    <div class="text-center">
+        <h1 class="text-4xl sm:text-6xl font-bold mb-4 gradient-text w-fit">
+            <span style="letter-spacing: 0.4em; display: inline-block;">
+              ASCEN<span style="letter-spacing: 0;">D</span>
+            </span>
+          </h1>
+          
+        <p class="text-lg sm:text-xl tagline mb-8">a rite by birkengym</p>
+        <button class="outlined-button">
+            <a href="https://birkengym.github.io/ascend/">
+                <span>RISE</span>
+            </a>
+        </button>
+    </div>
+</body>
+</html>
